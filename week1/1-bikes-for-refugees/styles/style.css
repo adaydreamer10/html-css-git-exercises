@@ -37,6 +37,18 @@ button {
 /* Buttons */
 /* INSERT BUTTON STYLES HERE */
 
+.navigation__content button , .jumbotron button {
+	background-color: #ce5f31;
+	padding: 10px 20px;
+	color: white;
+	border: transparent;
+}
+
+.jumbotron button:last-child {
+	background-color: white;
+	color:black;
+}
+
 
 /* Alert */
 .alert {
@@ -66,6 +78,8 @@ button {
 /* Jumbotron */
 .jumbotron {
 	border-radius: 0;
+	background-image: url("../images/header-bike.jpg");
+	height: 362px ;
 }
 
 /* Headings */
@@ -93,6 +107,17 @@ button {
 /* Article */
 .article {
 	margin-bottom: 2em;
+	display: flex;
+}
+
+/* Images */
+
+.thumbnail {
+	display: flex;
+	height: 100px;
+	width: 300px;
+	object-fit: cover;
+	padding-right: 10px;
 }
 
 .article__title {
@@ -131,6 +156,25 @@ button {
 	padding-bottom: 2em;
 }
 
+.boxes {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+
+}
+
+.boxes div {
+height: 150px;
+width: 150px;
+background-color: #dccdc6;
+display: flex;
+justify-content: center;
+align-items: center ;
+text-align: center;
+
+}
+
+
 /* Media queries */
 
 @media screen and (min-width: 992px) {
@@ -138,4 +182,12 @@ button {
 	.navbar-brand > img {
 	   max-height: 80px;
 	}
+}
+@media screen and (max-width: 365px) {
+	.jumbotron h1 {
+		font-size:28px;
+}
+@media screen and (max-width: 365px) {
+	.jumbotron button {
+		font-size:10px;
 }

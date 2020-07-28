@@ -1,8 +1,66 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+    background-color: rgb(241, 242, 233);
+    font-family: sans-serif;
+    font-size: 24px ;
+    line-height: 1.5em;
+    width: 70%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: cursive;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.title{
+    background-color: purple;
+      color: rgb(255, 255, 255)
+}
+
+.city1{
+    background-color: blue;
+    color: white;
+}
+
+.city2{
+    background-color: red;
+    color: white
+}
+
+.city3{
+    background: green;
+    color: white;
+}
+
+#img1{
+width: 1100px;
+height: 637px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#img2{
+    width: 1100px;
+    height: 637px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img3{
+    width: 1100px;
+    height: 637px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer{
+    font-size: 2em;
+    font-family: cursive;
+    line-height: 1.5em;
+    text-align: center;
+    background-color: skyblue;
+}
